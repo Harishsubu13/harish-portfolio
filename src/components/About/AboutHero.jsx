@@ -184,8 +184,8 @@ function AboutHero() {
 
               {/* Download Resume */}
               <a
-                href="/Harish-Subramanian-Resume.pdf"
-                download="Harish-Subramanian-Resume.pdf"
+                href="/HarishSubramanian_Resume.pdf"
+                download="HarishSubramanian_Resume.pdf"
                 className="
                   group
                   inline-flex

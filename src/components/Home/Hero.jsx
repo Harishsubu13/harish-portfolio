@@ -371,8 +371,8 @@ function NameContent() {
       {/* BUTTON */}
 
       <a
-        href="/Harish-Subramanian-Resume.pdf"
-        download="Harish-Subramanian-Resume.pdf"
+        href="/HarishSubramanian_Resume.pdf"
+        download="Harish-Subramanian_Resume.pdf"
         className="
     group
     mt-8
