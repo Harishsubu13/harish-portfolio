@@ -9,7 +9,7 @@ const stats = [
   {
     icon: Code2,
     title: "Website Development",
-    subtitle: "10+ Websites",
+    subtitle: "15+ Websites Live Now",
   },
   {
     icon: MessageCircle,
