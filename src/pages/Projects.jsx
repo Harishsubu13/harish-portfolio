@@ -8,7 +8,7 @@ import Railmet from "../assets/railmet-portfolio.png";
 import Nashi from "../assets/nashi-portfolio.png";
 import Surya from "../assets/surya-portfolio.png";
 import Loans from "../assets/49secondloans-portfolio.png";
-
+import NexintAI from "../assets/NexintAI.png"
 import AutoGen from "../assets/autogen-portfolio.png";
 import Bucks from "../assets/bucks-portfolio.png";
 import Horizons from "../assets/horizons-portfolio.png";
@@ -31,7 +31,6 @@ const projects = [
     image: Railmet,
     link: "https://railmet.in/",
   },
-
   {
     title: "Nashi Informatics",
     category: "Digital Marketing Website",
@@ -41,7 +40,6 @@ const projects = [
     image: Nashi,
     link: "https://www.nashiinfo.com/",
   },
-
   {
     title: "Surya Informatics",
     category: "IT Business Website",
@@ -51,37 +49,6 @@ const projects = [
     image: Surya,
     link: "https://www.suryainformatics.com/",
   },
-
-  {
-    title: "49 Second Loans",
-    category: "Finance Website",
-    technology: "WordPress · Elementor",
-    description:
-      "A finance-focused website built to communicate loan services clearly through a modern interface and responsive user experience.",
-    image: Loans,
-    link: "https://49secondloans.com/",
-  },
-
-  {
-    title: "AutoGenLeads",
-    category: "WhatsApp Automation Website",
-    technology: "WordPress · Elementor",
-    description:
-      "A modern business website for WhatsApp lead automation, designed with a clean interface to showcase automation solutions and business services.",
-    image: AutoGen,
-    link: "https://autogenleads.com/",
-  },
-
-  {
-    title: "Bucks & Brains",
-    category: "Business Consulting Website",
-    technology: "WordPress · Elementor",
-    description:
-      "A professional consulting website with a premium dark visual style, focused on presenting business services, consulting solutions and company information.",
-    image: Bucks,
-    link: "https://thebucksandbrains.com/",
-  },
-
   {
     title: "Horizons At Reach",
     category: "AI Solutions Website",
@@ -91,17 +58,15 @@ const projects = [
     image: Horizons,
     link: "https://horizonsatreach.com/",
   },
-
   {
-    title: "PickMe Nuts",
-    category: "E-Commerce Website",
+    title: "Nexint AI",
+    category: "AI Solutions Website",
     technology: "WordPress · Elementor",
     description:
-      "A premium e-commerce website for dry fruits, nuts and related products, designed with product-focused layouts and a user-friendly shopping experience.",
-    image: PickMe,
-    link: "https://pickmenuts.com/",
+      "An AI-focused website designed to present innovative solutions and services through a modern, professional interface.",
+    image: NexintAI,
+    link: "https://nexintai.com/",
   },
-
   {
     title: "Providentia",
     category: "Career Counselling Website",
@@ -111,17 +76,24 @@ const projects = [
     image: Providentia,
     link: "https://providentia.in/",
   },
-
   {
-    title: "Swasthik Capitals",
-    category: "Financial Services Website",
+    title: "PickMe Nuts",
+    category: "E-Commerce Website",
     technology: "WordPress · Elementor",
     description:
-      "A financial services website presenting insurance, mutual funds, business loans, real estate and other financial solutions through a professional interface.",
-    image: Swasthik,
-    link: "https://swasthikcapitals.com/",
+      "A premium e-commerce website for dry fruits, nuts and related products, designed with product-focused layouts and a user-friendly shopping experience.",
+    image: PickMe,
+    link: "https://pickmenuts.com/",
   },
-
+  {
+    title: "Ram Yoga Academy",
+    category: "Yoga & Wellness Website",
+    technology: "WordPress · Elementor",
+    description:
+      "A wellness-focused yoga website designed to present yoga programs, services and healthy lifestyle content with an engaging visual experience.",
+    image: Yoga,
+    link: "https://ramyogaacademy.in/",
+  },
   {
     title: "Twilight Memories",
     category: "Photography Website",
@@ -131,15 +103,41 @@ const projects = [
     image: Twilight,
     link: "https://twilightmemoriesphotography.com/",
   },
-
   {
-    title: "Ram Yoga Academy",
-    category: "Yoga & Wellness Website",
+    title: "Swasthik Capitals",
+    category: "Financial Services Website",
     technology: "WordPress · Elementor",
     description:
-      "A wellness-focused yoga website designed to present yoga programs, services and healthy lifestyle content with an engaging visual experience.",
-    image: Yoga,
-    link: "https://ramyogaacademy.in/",
+      "A financial services website presenting insurance, mutual funds, business loans, real estate and other financial solutions through a professional interface.",
+    image: Swasthik,
+    link: "https://swasthikcapitals.com/",
+  },
+  {
+    title: "49 Second Loans",
+    category: "Finance Website",
+    technology: "WordPress · Elementor",
+    description:
+      "A finance-focused website built to communicate loan services clearly through a modern interface and responsive user experience.",
+    image: Loans,
+    link: "https://49secondloans.com/",
+  },
+  {
+    title: "Bucks & Brains",
+    category: "Business Consulting Website",
+    technology: "WordPress · Elementor",
+    description:
+      "A professional consulting website with a premium dark visual style, focused on presenting business services, consulting solutions and company information.",
+    image: Bucks,
+    link: "https://thebucksandbrains.com/",
+  },
+  {
+    title: "AutoGenLeads",
+    category: "WhatsApp Automation Website",
+    technology: "WordPress · Elementor",
+    description:
+      "A modern business website for WhatsApp lead automation, designed with a clean interface to showcase automation solutions and business services.",
+    image: AutoGen,
+    link: "https://autogenleads.com/",
   },
 ];
 
@@ -294,11 +292,10 @@ function Projects() {
 
               <article
                 key={project.title}
-                className={`group relative ${
-                  index % 2 === 1
-                    ? "lg:translate-y-24"
-                    : ""
-                }`}
+                className={`group relative ${index % 2 === 1
+                  ? "lg:translate-y-24"
+                  : ""
+                  }`}
               >
 
                 {/* IMAGE */}
